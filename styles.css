@@ -1,0 +1,31 @@
+/* Set the font family, maximum width, and margin/padding for the web page */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Set the width of the text area input */
+textarea {
+  width: 100%;
+}
+
+/* Set the style for the summary generation button */
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+/* Set the hover effect for the summary generation button */
+button:hover {
+  background-color: #0056b3;
+}

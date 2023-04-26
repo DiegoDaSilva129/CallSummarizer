@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Call Transcription Summarizer</title>
+</head>
+<body>
+    <!-- Heading for the web app -->
+    <h1>Call Transcription Summarizer</h1>
+    <!-- Form for inputting call transcription text and triggering summary generation -->
+    <form id="summarize-form">
+        <label for="transcription">Call Transcription:</label><br>
+        <textarea id="transcription" name="transcription" rows="10" cols="50"></textarea><br>
+        <button type="submit">Summarize</button>
+    </form>
+    <!-- Heading for the summary -->
+    <h2>Summary:</h2>
+    <!-- Div for displaying the summary -->
+    <div id="summary"></div>
+    <!-- Script for sending the call transcription text to the server and displaying the summary -->
+    <script src="app.js"></script>
+</body>
+</html>
